@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mt-2 {
+  margin-top: 12px;
+}
+
+.mt-3 {
+  margin-top: 16px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Castoro", serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 160px;
+}
+.header h1, .header h2 {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+.header h2 {
+  text-align: right;
+}
+.header img {
+  margin: 0 auto;
+}
+
+.resume {
+  background-color: #EFEFEF;
+  padding: 48px 0;
+}
+.resume p {
+  width: 636px;
+  margin-left: auto;
+  font-size: 32px;
+}
+
+.experience {
+  width: 636px;
+  margin-top: 80px;
+}
+.experience h3 {
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: 3px #AE0000 solid;
+}
+.experience a {
+  font-size: 20px;
+}
+.experience a:hover {
+  opacity: 0.7;
+}
+.experience span {
+  color: #949494;
+  font-style: italic;
+}
+.experience p {
+  font-size: 24px;
+}
+
+.footer {
+  margin-top: 160px;
+  background-color: black;
+}
+.footer ul {
+  padding: 64px 0;
+  display: flex;
+  justify-content: center;
+}
+.footer li:nth-last-child(2) {
+  padding: 0 40px;
+}
+.footer a:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=all.css.map */
