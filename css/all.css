@@ -86,6 +86,7 @@ a {
 .container {
   width: 1320px;
   margin: 0 auto;
+  padding: 0 12px;
 }
 
 .header {
